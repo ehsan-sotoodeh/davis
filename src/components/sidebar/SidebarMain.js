@@ -3,6 +3,8 @@ import UserInfo from './UserInfo'
 import StoryInfo from './StoryInfo'
 import Tools from './Tools'
 import Layers from './Layers'
+import TestComponent from './TestComponent'
+
 
 class SidebarMain extends Component {
     render() {
@@ -13,6 +15,7 @@ class SidebarMain extends Component {
                 <StoryInfo></StoryInfo>
                 <Tools></Tools>
                 <Layers></Layers>
+                <TestComponent></TestComponent>
             </div>
         )
     }
